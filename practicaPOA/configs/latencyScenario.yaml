@@ -1,0 +1,22 @@
+!!scenarios.ScenarioConfig
+name: "Escenario con latencia"
+description: "Escenario con latencia para demostrar su funcionalidad."
+clock:
+  unitTimeMillis: 1000
+  numUnitDay: 10
+  numSimDays: 1
+fishMarket:
+  name: "Lonja"
+  config: "configs/latencyFishMarket.yaml"
+buyers:
+  - name: "Comprador1"
+    config: "configs/buyerType1.yaml"
+  - name: "Comprador2"
+    config: "configs/buyerType2.yaml"
+  - name: "Comprador3"
+    config: "configs/buyerType3.yaml"
+sellers:
+  - name: "Vendedor1"
+    config: "configs/sellerType3.yaml"
+
+

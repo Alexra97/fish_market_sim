@@ -1,0 +1,6 @@
+!!agents.fishmarket.FishMarketAgentConfig
+numberOfLanes: 3
+commission: 0.10
+reductionRate: 0.25
+latency: 0
+opportunityWindow: 2000

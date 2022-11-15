@@ -1,0 +1,21 @@
+!!agents.seller.SellerAgentConfig
+lots:
+  - day: 1
+    time: 3
+    kind: "lubina"
+    kg: 10.0
+    reservePrice: 200.0
+    startingPrice: 600.0
+  - day: 1
+    time: 9
+    kind: "ostras"
+    kg: 20.0
+    reservePrice: 500.0
+    startingPrice: 700.0
+  - day: 2
+    time: 4
+    kind: "lubina"
+    kg: 8.0
+    reservePrice: 180.0
+    startingPrice: 580.0
+

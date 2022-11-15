@@ -1,0 +1,26 @@
+!!agents.seller.SellerAgentConfig
+lots:
+  - day: 0
+    time: 2
+    kind: "sardina"
+    kg: 15.0
+    reservePrice: 60.0
+    startingPrice: 120.0
+  - day: 0
+    time: 2
+    kind: "pulpo"
+    kg: 10.0
+    reservePrice: 140.0
+    startingPrice: 300.0
+  - day: 0
+    time: 2
+    kind: "bacalao"
+    kg: 20.0
+    reservePrice: 250.0
+    startingPrice: 350.0
+  - day: 0
+    time: 2
+    kind: "calamar"
+    kg: 15.0
+    reservePrice: 100.0
+    startingPrice: 450.0

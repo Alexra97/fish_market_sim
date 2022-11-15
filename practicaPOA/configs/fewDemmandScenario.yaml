@@ -1,0 +1,20 @@
+!!scenarios.ScenarioConfig
+name: "Escenario con poca demanda"
+description: "Escenario con poca demanda y mucha oferta."
+clock:
+  unitTimeMillis: 1000
+  numUnitDay: 10
+  numSimDays: 3
+fishMarket:
+  name: "Lonja"
+  config: "configs/standardfishMarket.yaml"
+buyers:
+  - name: "Comprador1"
+    config: "configs/buyerType1.yaml"
+sellers:
+  - name: "Vendedor1"
+    config: "configs/sellerType1.yaml"
+  - name: "Vendedor2"
+    config: "configs/sellerType2.yaml"
+
+
